@@ -20,6 +20,9 @@ Track deadlines and completion status
 
 Stay organized and productive
 
+![Current Structure](C:\Users\rajm4\Desktop/image.png)
+
+
 🏗️ Current Structure
 student_task_manager/
 │
