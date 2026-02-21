@@ -1,29 +1,22 @@
-# Taskmanager
-ON_GOING PROJECT open for Contribution.. Feel free to fork...
-
-
 📘 Student Task Manager
 
 A simple web-based task manager built with Python (FastAPI + SQLAlchemy) to help students organize assignments, deadlines, and daily tasks.
 
-This project is currently under development 🚧.
+🚧 This project is currently under development.
 
 🧠 Project Goal
 
 To create a mobile-friendly web app where students can:
 
-Register and log in
+📝 Register and log in
 
-Add and manage their tasks
+📌 Add and manage their tasks
 
-Track deadlines and completion status
+⏰ Track deadlines and completion status
 
-Stay organized and productive
+📊 Stay organized and productive
 
-![Current Structure](C:\Users\rajm4\Desktop/image.png)
-
-
-🏗️ Current Structure
+🏗️ Project Structure
 student_task_manager/
 │
 ├── requirements.txt
@@ -44,10 +37,8 @@ student_task_manager/
         ├── index.html
         ├── login.html
         └── dashboard.html
-
 ⚙️ Tech Stack
-
-Backend
+🖥 Backend
 
 FastAPI
 
@@ -57,59 +48,64 @@ SQLite
 
 Uvicorn
 
-Frontend
+🎨 Frontend
 
-HTML, CSS, JavaScript
+HTML
+
+CSS
+
+JavaScript
 
 🚀 How to Run (Backend)
+1️⃣ Create and Activate Virtual Environment
 
-Create and activate virtual environment
+Windows
 
 python -m venv .venv
-.venv\Scripts\activate      # Windows
-source .venv/bin/activate   # Mac/Linux
+.venv\Scripts\activate
 
+Mac/Linux
 
-Install dependencies
-
+python -m venv .venv
+source .venv/bin/activate
+2️⃣ Install Dependencies
 pip install -r requirements.txt
-
-
-Run the API
-
+3️⃣ Run the API
 cd Taskmanager/backend
 uvicorn main:app --reload
+4️⃣ Open in Browser
 
-
-Open your browser at:
+Visit:
 
 http://127.0.0.1:8000/docs
 
+Interactive API documentation powered by FastAPI.
+
 📌 Features Implemented
 
-User model & routes
+✅ User model & routes
 
-Task model & routes
+✅ Task model & routes
 
-SQLite database integration
+✅ SQLite database integration
 
-Basic FastAPI backend structure
+✅ Basic FastAPI backend structure
 
-Simple frontend pages (Login / Dashboard)
+✅ Simple frontend pages (Login / Dashboard)
 
 🛠️ Features Coming Next
 
-User authentication (JWT login)
+🔐 User authentication (JWT login)
 
-Task creation, editing & deletion
+✏️ Task creation, editing & deletion
 
-Task status tracking (complete / pending)
+📊 Task status tracking (Complete / Pending)
 
-Mobile UI improvements
+📱 Mobile UI improvements
 
-Frontend ↔ Backend integration
+🔗 Frontend ↔ Backend integration
 
-Deployment
+☁️ Deployment
 
 📷 Example Workflow
 
@@ -131,11 +127,24 @@ Structure and features may change as the app grows
 
 Contributions and suggestions are welcome
 
-🧑‍💻 Author
+🤝 Contributing
 
-Built by Raj as a learning project in Python and web development.
-@RajMajhi
+Contributions are welcome!
 
-🧑‍💻 Co- Author 
+Fork the repository
 
-@manojmuglikar44-afk
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+🧑‍💻 Authors
+
+Raj Majhi
+GitHub: @RajMajhi
+
+Manoj Muglikar
+GitHub: @manojmuglikar44-afk
