@@ -2,19 +2,19 @@
 
 A simple web-based task manager built with Python (FastAPI + SQLAlchemy) to help students organize assignments, deadlines, and daily tasks.
 
-🚧 This project is currently under development.
+ This project is currently under development.
 
-🧠 Project Goal
+ Project Goal
 
 To create a mobile-friendly web app where students can:
 
-📝 Register and log in
+ Register and log in
 
-📌 Add and manage their tasks
+ Add and manage their tasks
 
-⏰ Track deadlines and completion status
+ Track deadlines and completion status
 
-📊 Stay organized and productive
+ Stay organized and productive
 
 🏗️ Project Structure
 student_task_manager/
@@ -37,8 +37,8 @@ student_task_manager/
         ├── index.html
         ├── login.html
         └── dashboard.html
-⚙️ Tech Stack
-🖥 Backend
+ Tech Stack
+ Backend
 
 FastAPI
 
@@ -48,7 +48,7 @@ SQLite
 
 Uvicorn
 
-🎨 Frontend
+ Frontend
 
 HTML
 
@@ -56,7 +56,7 @@ CSS
 
 JavaScript
 
-🚀 How to Run (Backend)
+ How to Run (Backend)
 1️⃣ Create and Activate Virtual Environment
 
 Windows
@@ -95,19 +95,19 @@ Interactive API documentation powered by FastAPI.
 
 🛠️ Features Coming Next
 
-🔐 User authentication (JWT login)
+ User authentication (JWT login)
 
-✏️ Task creation, editing & deletion
+ Task creation, editing & deletion
 
-📊 Task status tracking (Complete / Pending)
+ Task status tracking (Complete / Pending)
 
-📱 Mobile UI improvements
+ Mobile UI improvements
 
-🔗 Frontend ↔ Backend integration
+ Frontend ↔ Backend integration
 
-☁️ Deployment
+ Deployment
 
-📷 Example Workflow
+ Example Workflow
 
 Student registers
 
@@ -119,7 +119,7 @@ Views tasks on dashboard
 
 Updates progress
 
-💡 Development Notes
+ Development Notes
 
 This is an educational and evolving project
 
@@ -127,7 +127,7 @@ Structure and features may change as the app grows
 
 Contributions and suggestions are welcome
 
-🤝 Contributing
+ Contributing
 
 Contributions are welcome!
 
